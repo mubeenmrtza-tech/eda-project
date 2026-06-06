@@ -27,7 +27,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_excel("data/Concrete_Data.xls")
+    df = pd.read_excel("Concrete_Data.xls")
     return df
 
 df = load_data()

@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from dashboard_project.filters import apply_filters
+
 from filters import apply_filters
 from charts import (
     histogram,
